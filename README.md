@@ -152,22 +152,29 @@ O projeto integra <strong>Node.js</strong> e <strong>React</strong> em uma aplic
 </p>
 
 
-<h3>Tecnologias utilizadas</h3>
-<p><img src="http://www.soumaisconquista.com/gitHub/Badges/nodeJS.png" alt="Badges_nodeJS" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/react.png" alt="Badges_React" />
-&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/express.png" alt="Badges_express" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/nodemon.png" alt="Badges_nodemon" />
-&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/cors.png" alt="Badges_cors" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/gitHub.png" alt="Badges_gitHub" />	
-&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/apiRest.png" alt="Badges_apiRest" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/npm.png" alt="Badges_npm" />
+<h3>Tecnologias Utilizadas</h3>
+
+<p>
+  <img src="http://www.soumaisconquista.com/gitHub/Badges/nodeJS.png" alt="Node.js" />&nbsp;&nbsp;&nbsp;
+  <img src="http://www.soumaisconquista.com/gitHub/Badges/react.png" alt="React" />&nbsp;&nbsp;&nbsp;
+  <img src="http://www.soumaisconquista.com/gitHub/Badges/express.png" alt="Express" />&nbsp;&nbsp;&nbsp;
+  <img src="http://www.soumaisconquista.com/gitHub/Badges/nodemon.png" alt="Nodemon" />&nbsp;&nbsp;&nbsp;
+  <img src="http://www.soumaisconquista.com/gitHub/Badges/cors.png" alt="CORS" />&nbsp;&nbsp;&nbsp;
+  <img src="http://www.soumaisconquista.com/gitHub/Badges/apiRest.png" alt="API REST" />&nbsp;&nbsp;&nbsp;
+  <img src="http://www.soumaisconquista.com/gitHub/Badges/npm.png" alt="NPM" />&nbsp;&nbsp;&nbsp;
+  <img src="http://www.soumaisconquista.com/gitHub/Badges/gitHub.png" alt="GitHub" />
 </p>
-<ol>
-  <li><strong>NodeJs&nbsp;:</strong>&nbsp; Para o desenvolvimento de toda nossa aplicação.</li>
-  <li><strong>React&nbsp;:</strong>&nbsp; Framework para construção de nossa interface.</li>
-  <li><strong>Express&nbsp;:</strong>&nbsp; Biblioteca para criar o nosso servidor.</li> 
-  <li><strong>Nodemon&nbsp;:</strong>&nbsp; Biblioteca para manter o nosso servidor ativo.</li>
-  <li><strong>Cors&nbsp;:</strong>&nbsp; Biblioteca que permite fazer solicitações ao servidor, implantado em domínios diferente </li> 
-  <li><strong>GitHub&nbsp;:</strong>&nbsp; Compartilhamento de projetos e códigos.</li>
-  <li><strong>REST&nbsp;:</strong>&nbsp; Diretrizes para padronizar a comunicação entre a API e o cliente.</li>
-  <li><strong>NPM&nbsp;:</strong>&nbsp;gerenciador de pacotes para projetos Node.js</li>	
- </ol> 
+
+<ul>
+  <li><strong>Node.js:</strong> Ambiente de execução utilizado no desenvolvimento do Back-End.</li>
+  <li><strong>React:</strong> Biblioteca utilizada na construção da interface do usuário.</li>
+  <li><strong>Express:</strong> Framework responsável pela criação da API REST e definição das rotas.</li>
+  <li><strong>Nodemon:</strong> Ferramenta utilizada para reinicialização automática do servidor durante o desenvolvimento.</li>
+  <li><strong>CORS:</strong> Middleware para controle de acesso entre domínios distintos.</li>
+  <li><strong>API REST:</strong> Estilo arquitetural adotado para padronização da comunicação entre cliente e servidor.</li>
+  <li><strong>NPM:</strong> Gerenciador de pacotes utilizado para controle das dependências do projeto.</li>
+  <li><strong>GitHub:</strong> Plataforma utilizada para versionamento e compartilhamento do código-fonte.</li>
+</ul>
 
 <h2>Introdução</h2>
 
