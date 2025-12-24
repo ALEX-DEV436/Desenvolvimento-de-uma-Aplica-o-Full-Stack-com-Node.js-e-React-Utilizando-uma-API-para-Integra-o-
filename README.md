@@ -207,6 +207,8 @@ A seguir estão os passos necessários para executar o projeto localmente em amb
 git clone https://github.com/ALEX-DEV436/Desenvolvimento-de-uma-Aplica-o-Full-Stack-com-Node.js-e-React-Utilizando-uma-API-para-Integra-o-
 
 
+---
+
 
 <h3>Visão - Back-End</h3> 
 <h4>Implementando nossa API</h4>
