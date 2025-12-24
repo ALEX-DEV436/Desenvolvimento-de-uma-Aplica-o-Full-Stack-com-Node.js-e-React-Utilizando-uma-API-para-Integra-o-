@@ -42,15 +42,26 @@ Caso ocorra erro <strong>404</strong>, recomenda-se verificar o endpoint configu
 
 <hr>
 <h2>Protótipo</h2>
-<p>Fala devs, não ficou muito bem sincronizado mais já podemos ter uma ideia de como vai ficar a nossa aplicação. Até o final do projeto ele deve ficar perfeito.<br />Neste gif vcs já vão poder acompanhar um pouco da minha metodologia de trabalho,
-1º penso na ideia/conceito 2º executo/implemento 3º vou lapidando/cor,fonte,desenhos(no caso do protótipo). Vou tentar colocar as versões do gif na base do projeto, é interessante para vcs verem a evolução do trabalho. Baixem os gifs e estudem as
-  imagens internas&nbsp;.
+<p align="justify">
+Abaixo está um protótipo funcional em formato de GIF, desenvolvido com o objetivo de visualizar e validar o fluxo principal da aplicação antes do refinamento final da interface.
+</p>
+<p align="justify">
+O protótipo representa uma etapa inicial do processo de desenvolvimento, onde a prioridade foi compreender o comportamento do sistema, a interação do usuário e as principais funcionalidades, antes de ajustes mais finos relacionados a layout, tipografia e identidade visual.
+</p>
+<p align="justify">
+A metodologia aplicada neste projeto segue um fluxo simples e iterativo:
+</p>
+<ul>
+  <li>Definição da ideia e do conceito</li>
+  <li>Implementação funcional</li>
+  <li>Refinamento progressivo da interface e da experiência do usuário</li>
+</ul>
+<p align="justify">
+Versões evolutivas do protótipo são mantidas no repositório para fins de estudo e acompanhamento da evolução do projeto, permitindo observar as decisões tomadas ao longo do desenvolvimento.
 </p>
 <p>
-Tentei colocar as principais funções de nossa aplicação nesta imagem e no meio dela uma breve reflexão de como o sistema se comporta por traz do espetáculo&nbsp;!... Nos bastidores&nbsp;!&nbsp;A ideia é essa&nbsp;!&nbsp;Vamos ver se funciona...Vou ficar refinando até o conceito ficar mais claro&nbsp;!&nbsp; Um forte abraço&nbsp;!	
-</p>
-<p>
-  <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo15.gif" alt="Prototipo do sistema em gif animado" /><br /> 
+  <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo15.gif" 
+       alt="Protótipo funcional da aplicação em formato GIF" />
 </p>
 <h2>Dicas GitHub</h2>
 <p>
