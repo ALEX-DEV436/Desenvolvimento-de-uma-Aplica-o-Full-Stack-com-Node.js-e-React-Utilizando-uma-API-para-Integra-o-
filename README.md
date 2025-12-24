@@ -223,54 +223,28 @@ npm install
 
 npm start
 
-<h3>Visão - Back-End</h3> 
-<h4>Implementando nossa API</h4>
-<p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;: <br /> <br />
-<h5>Criando o servidor</h5>
-<p>
-   
-               ```
-                            const express = require('express');
-                            const app = express();
-                            app.use(express.json());
-  
-               ```
-</p>
+## Visão Geral – Back-End
 
-<h5>Abrindo uma porta para o servidor</h5>  
-<p>
+O Back-End foi desenvolvido em Node.js utilizando o framework Express e é responsável por intermediar a comunicação entre o Front-End e a API externa do Star Wars (SWAPI).
 
-              ```
-                            app.listen(3000,() =>{
-                                    console.log('Testando o Servidor');
-                            });
-             ```
-</p>
+### Principais responsabilidades
+- Expor endpoints REST
+- Consumir dados da API externa
+- Tratar e retornar respostas para o Front-End
 
-<h5>Construindo uma rota para o consumo de nossa API</h5>
-<p>
+### Inicialização do servidor
 
-             ```
-                           app.get('/', (req,res) =>{
-                                  res.send('starWars');
-                            });
-            ```
-</p>
+Para iniciar o servidor Back-End, execute:
 
-<h5>Inicializando o servidor</h5>
-<p>Abra o terminal do visual code e digite =></p>
-<p>
+```bash
+npm start
+```
+Exemplo de rota disponível
 
-            ```
-                          npm start
-            ```
-</p>
-<p>Resumidamente uma API já foi criada, quando ouvirem criar e consumir uma API já estamos fazendo isso, veja
-  na img 05 , no navegador ao digitar 'http://localhost:3000/' aparece a mensagem 'HomeWorld - starWars', ou seja a mensagem esta sendo originada de nossa interface.<br/>
-  Na linha  <strong><i></strong>app.use(express.json());</i> veja que o express , vem com .json, colocamos sem, mais não abre no navegador;
-</p>
-  <p>Na imagem abaixo podemos ver os comandos em meu pc.</p>
-  <p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img4a.jpg" alt="Iniciando o servidor" /></p>
+app.get('/', (req, res) => {
+  res.send('starWars');
+});
+
 
 <h3>Visão - Front-End</h3> 
 <h4>Implementamos nossa APi no Back-End, agora vamos ao Front-End</h4>
