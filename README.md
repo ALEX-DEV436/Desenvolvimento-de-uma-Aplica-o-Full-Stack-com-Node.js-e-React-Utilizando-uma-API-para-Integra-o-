@@ -246,97 +246,23 @@ app.get('/', (req, res) => {
   res.send('starWars');
 });
 ```
+## Visão Geral – Front-End
 
+O Front-End foi desenvolvido em React e é responsável por fornecer a interface de interação com o usuário, permitindo a busca de personagens da saga Star Wars por meio da comunicação com a API interna.
 
-<h3>Visão - Front-End</h3> 
-<h4>Implementamos nossa APi no Back-End, agora vamos ao Front-End</h4>
-<p>
-  Após criar a API, decidi começar no React com a interface da aplicação, pois é ponto de entrada de nosso sistema, nosso gatilho que inicia toda a sequencia de
-  ações e decisões que vamos desenvolver.
-</p>
-<p>Pode deixar a tela do Back-End aberto, e abra novamente o prompt de comando do seu computador.</p>
-<p>Nele digite : 
-  
-           ```
-                      npx create-react-app app
-           ```
-</p>
-<p>Aguarde... demora um pouquinho!</p>
-<p>No final deve apresentar algo semelhante a tela abaixo! Obs: Selecione a pasta que voce quer baixar com o comando <strong>cd ./pasta/.</strong> </p>
-<p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img1a.jpg" alt="Instalando o react" /></p>
-<p>Vamos instalar agora a biblioteca axios</p>
-<p>Entre na pasta app</p>
-<p>
-  Para instalar o axios&nbsp;:
-</p>
-<p>
-  
-        ```
-                   npm i axios
-        ```
-</p>
-<h4>Abrindo o visual code&nbsp;:</h4>
-<p>
-  
-        ``` 
-                  code .
-        ```
-</p> 
-<p>Já no visual code observe as pasta e os arquivos pela imagem apresentada.</p>
-<p>Veja que muita coisa retiramos, por não precisar para o nosso projeto. </p>
-<p>Mais é opcional&nbsp;!</p>
-<p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img3a.jpg" alt="Tela do visual code apresentando o React" /></p>
-<h3>Comandos no frontend&nbsp;! </h3>
+### Principais responsabilidades
+- Capturar a entrada do usuário
+- Enviar requisições para o Back-End
+- Exibir os dados retornados pela API
 
-<p>1º Primeiro vamos ativar o nosso servidor no Front End. No terminal digite na pasta app(se voce instalou o react na pasta app veja img 8):</p>
-    
-        ```
-                  npm run start       
-        ```  
-     
-<p>  
-    <p>Deve aparecer uma mensagem informando que a porta 3000 esta em uso, apert y que vai direcionar para outra porta.</p>
-     <p>Não dando erro o servidor vai esta ligado e operante </p>
-     <p><img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img4a.jpg" alt="Acionando o servidor" /></p>
-     <p>2º Quando vou começar uma aplicação nova, sempre inicio pelo ponto de entrada.Pois é apartir deste ponto que o nosso sistema vai rodar. Não funcionando corretamente 
-     todo o nosso sistema fica comprometido</p>
-     <p>Portanto para isso vamos criar um formulário básico de entrada para teste</p>  
-       
-               ```    
-                             function App(){ 
-                                 return (
-                                       <div className="App">
-                                          <header className="App-header">
-                                             <div>            
-                                               <h2>
-                                                 Lista de personagens <br /> da saga starWars
-                                               </h2>  
-                                              <form>
-                                                  <input 
-                                                    id='inputID'
-                                                    type='text'
-                                                    name='personagem'
-                                                    placeholder='Nome do personagem'
-                                                    required
-                                                    />
-                                                  <button                  
-                                                    type='submit'              
-                                                   >Pesquisar
-                                                  </button>
-                                               </form> 
-                                              </div>
-                                           </header>       
-                                        </div>
-                                      );
-                                    };
-                                  export default App;
-     
-                ```  
-     
-</p> 
-<p> Resultado:</p>
-<p> <p> <img src="http://www.soumaisconquista.com/gitHub/imgfrontend/img5a.jpg" alt="Teste de servidor" /></p>  
-</p>
+### Inicialização do Front-End
+
+Para iniciar o servidor Front-End, execute:
+
+```bash
+npm start
+```
+
 <h2>"Sebo nos dedos"</h2>
  <h3>Testes de introdução as tecnologias</h3>
  <h4>Teste do clique no botão.</h4>
