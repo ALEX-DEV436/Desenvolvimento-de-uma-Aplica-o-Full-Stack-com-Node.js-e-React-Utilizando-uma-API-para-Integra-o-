@@ -63,56 +63,42 @@ Versões evolutivas do protótipo são mantidas no repositório para fins de est
   <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo15.gif" 
        alt="Protótipo funcional da aplicação em formato GIF" />
 </p>
-<h2>Dicas GitHub</h2>
-<p>
-<p>
-1º - https://katex.org/docs/supported.html#line-breaks </br>
-2º - https://gist.github.com/alexpeattie/4729247 </br>
-3º - https://www.facom.ufu.br/~william/Disciplinas%202015-2/BSI%20-%20GSI003%20-%20Introducao%20Sistemas%20Informacao/Template/ApostilaLaTex.pdf
-</p>	
-</p>
-<p>Para organizamos nosso projeto até a sua conclusão, vamos seguir um checklist básico&nbsp;:</p>
-<p>
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Protótipo; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Dicas GitHub; <br />	
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Iniciar o projeto; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Instalar as bibliotecas; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Habilitar o Express; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar servidor com o express no Back-End; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar nossa API; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma rota para acessar nossa API; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Habilitar o Nodemon para sempre reiniciar nosso servidor; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Servir a API; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Habilitar o Cors; <br /> 
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar o projeto no React-Front-end; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Habilitar o servidor no Front-End; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar servidor com o express no Front-End; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Desenvolver a forma de entrada da pesquisa; <br /><br /> 
-  <strong>Testes de introdução as tecnologias</strong><br /> <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Testar clique no botão; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Utilizando o Axio; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar uma base de dados para ser consumida por nossa API; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Consumir a base de dados no front-end; <br /> 
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Uso do try e o catch; <br /> 
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de acesso a API da Star Wars; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de endpoints fornecidos na documentação da API Star Wars; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de retornos dos end points.Que tipos retornam?; <br />  
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de consumo da API externa , atraves de nossa API por nosso Front-end; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Criar estilo para o formulario e pagina; <br /> <br />
-  <strong>Testes de desenvolvimento</strong><br /> <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de pesquisa pelo nome do personagem; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para consulta pelo nome da API  Star Wars na tela do usuario; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para cadastramento de personagem na lista de favoritos; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Teste de função para mostrar lista de personagem; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Resultado dos testes de desenvolvimento; <br /> <br />
-  <strong>Testes de implementação</strong><br /> <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Apresentar o aplicativo como mostrado no prototipo; <br />
-  [<img src="http://www.soumaisconquista.com/gitHub/ticado2.png" alt="Realizado" />]&nbsp;Implementar lógica de erro de: Digitação, Ausencia de personagem, Nome inválido; <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Implementar lógica de apresentação do nome dos filmes em vez de URL <br /><br />
-  <strong>Conclusão</strong><br /> <br />
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Introduzir os conceitos simples de componentes para o projeto; <br />  
-  [&nbsp;&nbsp;&nbsp;]&nbsp;Desenvolver uma API rest para atualização da lista de personagens cadastrado; <br />  
-</p>
+## 📚 Dicas e Referências
+
+Durante o desenvolvimento deste projeto, foram utilizadas algumas referências técnicas e recursos de apoio:
+
+- https://katex.org/docs/supported.html#line-breaks  
+- https://gist.github.com/alexpeattie/4729247  
+- Apostila de Introdução a Sistemas de Informação – UFU
+## ✅ Checklist de Desenvolvimento
+
+Este checklist representa as principais etapas planejadas e executadas durante o desenvolvimento da aplicação.
+
+### ✔ Estrutura Inicial
+- [x] Definição do conceito e protótipo funcional
+- [x] Configuração do ambiente de desenvolvimento
+- [x] Instalação das dependências
+- [x] Configuração do Express no Back-End
+- [x] Criação da API REST
+- [x] Configuração de CORS e Nodemon
+
+### ✔ Integração e Testes
+- [x] Consumo da API externa (SWAPI)
+- [x] Criação de rotas para acesso aos dados
+- [x] Testes de endpoints e tratamento de retornos
+- [x] Integração da API com o Front-End
+- [x] Implementação de tratamento de erros (try/catch)
+
+### ✔ Funcionalidades
+- [x] Pesquisa de personagens por nome
+- [x] Exibição de informações no Front-End
+- [x] Cadastro de personagens em lista de favoritos
+
+### ⏳ Em Desenvolvimento
+- [ ] Exibição dos nomes dos filmes (em vez de URLs)
+- [ ] Introdução de componentes React para melhor organização
+- [ ] API REST para atualização da lista de favoritos
+
 <h2>Antes iniciarmos o nosso projeto vamos algumas informações que precisam ser vistas.</h2>
 <h3>API externa</h3>
 <h4>API starWar&nbsp;!</h4>
