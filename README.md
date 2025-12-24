@@ -241,9 +241,11 @@ npm start
 ```
 Exemplo de rota disponível
 
+```js
 app.get('/', (req, res) => {
   res.send('starWars');
 });
+
 
 
 <h3>Visão - Front-End</h3> 
