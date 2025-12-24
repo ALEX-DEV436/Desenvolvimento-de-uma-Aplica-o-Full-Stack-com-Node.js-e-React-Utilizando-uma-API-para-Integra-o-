@@ -195,8 +195,8 @@ A seguir estão os passos necessários para executar o projeto localmente em amb
 
 ### Pré-requisitos
 
-- Node.js  
-- NPM  
+- Node.js
+- NPM
 - Visual Studio Code (ou editor de sua preferência)
 
 ### Instalação
@@ -206,19 +206,6 @@ A seguir estão os passos necessários para executar o projeto localmente em amb
 ```bash
 git clone https://github.com/ALEX-DEV436/Desenvolvimento-de-uma-Aplica-o-Full-Stack-com-Node.js-e-React-Utilizando-uma-API-para-Integra-o-
 
-Acesse a pasta do projeto (Back-End):
-
-cd backend
-
-
-Instale as dependências:
-
-npm install
-
-
-Inicie o servidor:
-
-npm start
 
 
 <h3>Visão - Back-End</h3> 
