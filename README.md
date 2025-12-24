@@ -17,21 +17,11 @@ O projeto foi desenvolvido como um desafio técnico e também como um exercício
 </p>
 
 <h3>🔎 Notas Técnicas e Atualizações</h3>
-
 <small>
-Atualizado em <strong>21/12/2024</strong>, após retomada do projeto e revisão geral do código e da documentação.
+Atualizado em <strong>24/12/2025</strong>, após retomada do projeto e revisão geral do código e da documentação.
 </small>
-
-<br><br>
-
-<img src="http://www.soumaisconquista.com/gitHub/icone/icone3.png" alt="Info" width="20" />
-<strong> Observação:</strong> outras atualizações e ajustes estão descritos ao final deste README.
-
-<br><br>
-
 <img src="http://www.soumaisconquista.com/gitHub/icone/TEXTO.png" alt="Aviso" width="20" />
-Durante a revisão, foi identificado que a API pública utilizada no projeto (<strong>SWAPI</strong>) sofreu alteração de domínio:
-
+Durante uma revisão, foi identificado que a API pública utilizada no projeto (<strong>SWAPI</strong>) sofreu alteração de domínio:
 <ul>
   <li><strong>Antigo:</strong> https://swapi.dev</li>
   <li><strong>Atual:</strong> https://swapi.py4e.com</li>
