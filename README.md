@@ -189,137 +189,32 @@ Antes da implementação, foram realizadas análises conceituais e técnicas par
 <p align="justify">
 A abordagem adotada neste projeto reforça a importância do estudo prévio, da validação de conceitos e da experimentação prática como parte do processo de desenvolvimento de software.
 </p>
+<h2>Setup do Projeto</h2>
 
-<h2>Setup</h2>
-<h3>Iniciando os trabalhos</h3>
-<p>
-<img src="http://www.soumaisconquista.com/gitHub/Badges/npm.png" alt="Badges_npm" /><br />	
-Para iniciarmos os trabalhos vamos conhecer uma ferramenta que vai nos ajudar na instalação dos aplicativos e bibliotecas que utilizaremos em nossa aplicação, trata-se do <strong><i>npm</i></strong>.<br />
-NPM (Node Package Manager) é uma ferramenta de linha de comando que permite aos desenvolvedores gerenciar pacotes para projetos Node.js. <br />
-O que faz?<br />	
-1 - Instalar, desinstalar e atualizar dependências de projetos<br />
-2 - Gerenciar dependências de projetos<br />
-3 - Compartilhar dependências de projetos<br />
-4 - Criar módulos públicos ou privados<br />
-5 - Controlar pacotes próprios <br />
-<p>Em minhas pesquisas verifiquei que existem outros gerenciadores de pacote, mais optamos por este, por ser o mais utilizado.</p>	
+<p align="justify">
+A seguir estão os passos necessários para executar o projeto localmente em ambiente de desenvolvimento.
 </p>
-<h4>Instalação dos aplicativos</h4>
+
+<h3>Pré-requisitos</h3>
 <ul>
-<li>1° Node -...........=> <a title="" href="https://nodejs.org/en/download/package-manager">Link</a></li>
-<li>2° Visual code -.=> <a title="" href=https://code.visualstudio.com/download">Link</a></li>  
-<li>3° GitHub - Realizar o cadastro somente.(o gitHub é só mesmo para compartilhar o projeto, caso não queira pode desconsiderar as instalações neste momento</li>
+  <li>Node.js</li>
+  <li>NPM</li>
+  <li>Visual Studio Code (ou editor de sua preferência)</li>
 </ul>
-<p>Veja as versões que uso neste projeto</p>
-<p><img src="http://www.soumaisconquista.com/gitHub/apiFron/Versoes2.jpg" alt="Versões das tecnologias utilizadas do projeto" /></p>
 
-<p>Vamos começar&nbsp;!!!,&nbsp; abrindo o <strong>Prompt de Comando</strong> para criarmos a estrutura de pastas, onde guardaremos o nosso projeto e tambem vamos instalar as bibliotecas.
-Trata-se de algo pessoal e pode ser estruturado da forma que for mais confortavel para você.
-</p>
+<h3>Instalação</h3>
 
-<h4>Comandos iniciais no Prompt para criarmos um projeto Node.js</h4>
-<h5>1º&nbsp;&nbsp;Criar a pasta =>Pode criar sua pasta com o nome de sua preferência.</h5> 
-<p>
-  
-          ```
-                    mkdir suaPasta
-          ```
-</p> 
- <h5>2º&nbsp;&nbsp;Entrar na pasta => Depois de criar você precisa entrar na pasta para o próximo passo com o comando <strong><i>cd .//</i></strong>. </h5>
-<p>
+<ol>
+  <li>Clone o repositório:</li>
+</ol>
 
-           ```
-                    cd ./suaPasta/
-           ```
-</p>
+```bash
+git clone https://github.com/ALEX-DEV436/Desenvolvimento-de-uma-Aplica-o-Full-Stack-com-Node.js-e-React-Utilizando-uma-API-para-Integra-o-
 
-<h5>3°&nbsp;&nbsp;Criar o projeto => Com este comando o seu projeto sera criado.</h5>
-<p>
-  
-           ``` 
-                    npm init
-           ```
-</p>
-<p>Acima eu passo os comandos para criação e acesso da pasta e, tambem como iniciar um projeto Node.js , isso
-tudo pelo prompt.Existe outras formas de criação de projeto, mais esta é a mais utilizada segundo minha pesquisas.</p>
-<p> Veja na imagem abaixo como ficou no meu pc, para exemplificar melhor todo o processo&nbsp;:  </p>
+cd backend
+npm start
 
-<p><br/>
- <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img1a.jpg" alt="Iniciando o projeto" /></p>
- <p>As bibliotecas são partes importantes no desenvolvimento de uma API , pois facilitam na criação do servidor e tambem na comunicação entre
-    as partes que compoem a estrutura da aplicação, em todas as fontes que pesquisamos elas foram utilizadas e por isso coloco aqui as que vamos utilizar tambem  neste projeto;</p>
- <h4>Instalações das bibliotecas</h4>
-  
-<h5>1º&nbsp;&nbsp;express =></h5>
-<p>
-  
-           ```
-                    npm i express
-           ```
-</p>
-<h5>2º&nbsp;&nbsp;nodemon =></h5> 
-<p>
 
-            ```
-                    npm i nodemon
-            ```
-</p>
-<h5>3°&nbsp;&nbsp;cors =></h5> 
-<p>
-
-            ```
-                    npm i cors
-            ```
-</p>
-<p>Veja como ficou as minhas instalações.Tenha calma na instalação para que não tenha problemas depois no desenvolvimento.</p>
-<p><img src="http://www.soumaisconquista.com/gitHub/imgBackend/img2a.jpg" alt="Instalações das bibliotecas" /></p>
-<p>Chegou até aqui! Tudo tranquilo&nbsp;? Tá, suave na nave? Se divertindo&nbsp;?&nbsp;Então vamos lá...</p>
-<p>Para ver se deu tudo certo voce pode realizar os seguintes comandos, na imagem 1 <strong>- 'minhas versões'</strong> , mostro o resultado no prompt do meu computador.</p>
-
-<h5>1º&nbsp;&nbsp;Para ver se o Node.js esta instalado</h5>
-<p>
-
-          ```
-                    node --version
-          ```
-</p> 
-<h5>2°&nbsp;&nbsp;Para ver se visual code esta instalado</h5>
-<p>
-
-           ```
-                    code --version
-           ```
-</p>
-<p>Vamos entra no projeto atraves do visual code, para começarmos a trabalhar</p>
-<h4>Abrindo o visual code</h4>
-<p>
-  
-           ```
-                    code .
-           ```
-</p> 
-<p>Obs: se o comando <strong><i>code .</i></strong> não abrir o visual code automaticamente , reinstale o visual code.Comigo resolveu.</p>
-<p>Veja que criei uma pasta '<strong><i>src</i></strong>' dentro dela coloquei o arquivo '<strong><i>serve.js</i></strong>' e fiz a edição do arquivo '<strong><i>package.json</i></strong>' introduzindo a seguinte linha de codigo
-'<strong><i>,"start": "nodemon src/serve.js</i>"</strong>'</p>
-<p>
-  <p>Imagem do visual code aberto após o comando code .</p>
-   <img src="http://www.soumaisconquista.com/gitHub/imgBackend/img3a.jpg" alt="Visualização do projeto no visual code" /></p>  
-   Obs:Compare sua tela com a minha&nbsp;! Acompanhe as setas na imagem para observar os pontos que considero importantes.
-</p>
-<h4>Antes de colocar a mãos no código vamos entender rapidamente o que é uma API. Na minha percepção&nbsp;:</h4>
-<p align="justify">
-<img src="http://www.soumaisconquista.com/gitHub/Badges/api2.png" alt="Badges_api" /><br />	
-API é uma tecnologia muito presente no mercado de trabalho atual, minhas primeiras impressões sobre este conceito é trata-se de algo que fica entre a fonte real de uma base de dados e o cliente ou solicitante. Fiz uma analogia na minha cabeça para tentar entender melhor a tecnologia.<br />
-Vamos pensar em tomates&nbsp;!&nbsp; Pois estava comendo-os quando pensei nesta analogia.<br />
-Imagine voce com vontade de comer uma salada de tomate&nbsp;!&nbsp; Abre a geladeira e não vê nenhum tomate. Provalvemente vai até a quintanda mais proxima para comprá-lo. Enquanto come tranquilamente sua salada, começa a refletir&nbsp;:&nbsp; Como esse tomate chegou à minha mesa&nbsp;?&nbsp;Qual foi o caminho que ele percorreu até se transformar em minha salada preferida&nbsp;?</p>
-<p align="justify">
-Na grande maioria das vezes, ele é plantado em uma fazenda por um agricultor e observe, voce não tenho acesso ao agricultor...&nbsp;&nbsp;O quitandeiro onde comprou também não&nbsp;!... &nbsp;Então... Entra em cena um terceiro personagem em nossa historia... &nbsp;&nbsp;O ATRAVESSADOR, que pega o tomate do agricultor, repassa para o quitandeiro, que, por sua vez, disponibiliza em sua quitanda para venda. Veja que nessa pequena história, já temos três personagens de nosso projeto&nbsp;:&nbsp; usuário,  front-end e Api! Consegue identificá-los&nbsp;?&nbsp; No rodapé deste projeto, deixei a resposta&nbsp;!&nbsp; Mas continuando...&nbsp;&nbsp; Estamos criando nossa própria API&nbsp;!&nbsp;E ai&nbsp;! como fica&nbsp;?&nbsp; Precisamos incluir mais dois personagens nesse imbróglio&nbsp;!&nbsp;Então vamos continuar a nossa histórinha&nbsp;!&nbsp;Imagine que o quitandeiro não pega o tomate diretamente do nosso atravessador; ele compra de um mercado/atacadão, que por sua vez possui um fornecedor que obtém os tomates diretamente do nosso atravessador. Já consegue identificar o back-end e a nossa API&nbsp;?&nbsp;&nbsp;Resposta no final deste projeto.</p>
-<p align="justify">
-Para finalizar-mos, como explicar nessa histórinha que uma API se trata de uma interface para receber e tratar os dados recebidos&nbsp;?&nbsp; Bom...&nbsp;O nosso atravessador e fornecedor, que são os que ganham mais dinheiro, possuem uma base (galpão) que trata os tomates antes de repassá-los, pois, conforme a  categoria de clientes, os tomates devem ser selecionados e limpos antes de serem postos a venda. E agora&nbsp;?...&nbsp;Consegue identificar a APi sendo uma interface&nbsp;?&nbsp; Na minha cabeça deu certo&nbsp;!!! E na sua&nbsp;?
-</p>
-<h4>PRONTO&nbsp;!!!&nbsp;&nbsp;TUDO CERTO&nbsp;!!!&nbsp;&nbsp;VAMOS COMEÇAR A CODAR&nbsp;???</h4>
-<p>Prometo tentar ser o mais didático possível, mais quero que entendam que tambem estou começando a trabalhar com estas tecnologias e, portanto não tenho como
-passar as informações como um expert no assunto, o que for aprendendo vou tentar compartilhar é o meu objetivo.</p>
 <h3>Visão - Back-End</h3> 
 <h4>Implementando nossa API</h4>
 <p>Na pagina <strong><i>serve.js</i></strong> efetue os seguintes comandos&nbsp;: <br /> <br />
