@@ -1,12 +1,7 @@
 #"Desenvolvimento de uma Aplicação Full Stack com Node.js e React&nbsp;: Utilizando uma API para Integração entre Front-end e Back-end"
-
-<h2 align="justify">Prepare-se para uma empolgante jornada pelo universo da tecnologia! Neste projeto, vamos entender juntos, o que é &nbsp; Api,&nbsp; Node.js,&nbsp; React,&nbsp; Npm,&nbsp; Hooks,&nbsp; Express,&nbsp; Nodemon,&nbsp; Cors,&nbsp; Rest,&nbsp;GitHub. Estou animado para compartilhar minhas descobertas. Junte-se a mim e vamos descobrir como desbravar essas tecnologias e expandir os horizontes no desenvolvimento e compartilhamento de nossas aplicações. O futuro nos aguarda!Vamos nessa! 🚀</h2>
-Warning: atualizado em 21/12/2024 voltando depois de uma parada no projeto; acrescentando dicas do github<br /><br />
-
- <img src="http://www.soumaisconquista.com/gitHub/icone/icone3.png" alt="icone" />&nbsp; $\textcolor{green}{Obs \ : \ outras \ atualizações \ estão \ no \ final \ da \ pagina.}$
- 
-<img src="http://www.soumaisconquista.com/gitHub/icone/TEXTO.png" alt="Texto" />&nbsp; Após um tempo sem trabalhar no projeto verifiquei um contra tempo, o link direcionado para nossa API muda e compromete todo nosso sistema o endereço: de https: //swapi\.dev/ mudou para: https: //swapi.py4e.com/. Vou tentar alterar em todas a versões do projeto, mais caso passe algum e apareça o erro '404' , pode ser esse detalhe. 
-
+<h2 align="left">
+Aplicação Full Stack para Integração e Consumo de API Externa utilizando Node.js e React.
+</h2>
 <h3>Descrição</h3>
 <p>Bem-vindos;</p>
 <p align="justify">
@@ -18,6 +13,33 @@ Um adendo:&nbsp;&nbsp;apesar de desenvolver aplicações web há muitos anos, eu
 <p align="justify">
 Animados?&nbsp;&nbsp;Espero que sim&nbsp;!!!&nbsp;&nbsp; Você vai vivenciar uma experiência única e empolgante...&nbsp;A inquietude na vida de um desenvolvedor Full Stack&nbsp;!!!&nbsp;&nbsp; Não ficamos presos (digo restritamente...&nbsp; pois precisamos entender os princípios que regem cada tema; não dá para criar um site e colocar o texto amarelo sobre um vermelho cintilante) a nenhuma linguagem ou conceito de design.O escopo de nossa atuação é imenso, somos livres para desenvolver o que nos inspirar. Antes deste projeto, por exemplo, eu já estava criando um game com C# e Unity e, logo colocarei ele aqui também no GitHub. Mais neste momento, vamos focar neste projeto. Venha comigo nesta jornada e, "juntos e tambem misturados" vamos descobrir as possibilidades e oportunidades que essas novas ferramentas (digo "novas" para mim) podem oferecer.&nbsp;&nbsp;Vai ser muitooo!&nbsp;&nbsp;divertido!!!&nbsp;&nbsp;let's go&nbsp;!  
 </p>
+<hr>
+
+<h3>🔎 Notas Técnicas e Atualizações</h3>
+
+<small>
+Atualizado em <strong>21/12/2024</strong>, após retomada do projeto e revisão geral do código e da documentação.
+</small>
+
+<br><br>
+
+<img src="http://www.soumaisconquista.com/gitHub/icone/icone3.png" alt="Info" width="20" />
+<strong> Observação:</strong> outras atualizações e ajustes estão descritos ao final deste README.
+
+<br><br>
+
+<img src="http://www.soumaisconquista.com/gitHub/icone/TEXTO.png" alt="Aviso" width="20" />
+Durante a revisão, foi identificado que a API pública utilizada no projeto (<strong>SWAPI</strong>) sofreu alteração de domínio:
+
+<ul>
+  <li><strong>Antigo:</strong> https://swapi.dev</li>
+  <li><strong>Atual:</strong> https://swapi.py4e.com</li>
+</ul>
+
+Essa mudança pode impactar versões anteriores do projeto.  
+Caso ocorra erro <strong>404</strong>, recomenda-se verificar o endpoint configurado.
+
+<hr>
 <h2>Protótipo</h2>
 <p>Fala devs, não ficou muito bem sincronizado mais já podemos ter uma ideia de como vai ficar a nossa aplicação. Até o final do projeto ele deve ficar perfeito.<br />Neste gif vcs já vão poder acompanhar um pouco da minha metodologia de trabalho,
 1º penso na ideia/conceito 2º executo/implemento 3º vou lapidando/cor,fonte,desenhos(no caso do protótipo). Vou tentar colocar as versões do gif na base do projeto, é interessante para vcs verem a evolução do trabalho. Baixem os gifs e estudem as
