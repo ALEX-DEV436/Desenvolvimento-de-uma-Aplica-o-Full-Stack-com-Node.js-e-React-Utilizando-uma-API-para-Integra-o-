@@ -275,7 +275,7 @@ O projeto foi construído de forma incremental, validando cada etapa antes de av
 - Tratamento de respostas e cenários de erro (personagem não encontrado)
 - Cadastro e listagem de favoritos (estado e rotas dedicadas)
 
-> Documentação completa com testes, prints e códigos: `docs/SEBO-NOS-DEDOS.md` (em breve também em PDF).
+> Documentação completa com testes, prints e códigos: `docs/Processo-Desenvolvimento-Validacao.md` (em breve também em PDF).
 
 <h3>Conclusão</h3>  
 <h4>Introduzir os conceitos simples de componentes para o projeto; </h4>
