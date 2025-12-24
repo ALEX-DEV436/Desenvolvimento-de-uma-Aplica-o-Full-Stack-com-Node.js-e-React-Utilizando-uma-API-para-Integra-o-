@@ -189,22 +189,36 @@ Antes da implementação, foram realizadas análises conceituais e técnicas par
 <p align="justify">
 A abordagem adotada neste projeto reforça a importância do estudo prévio, da validação de conceitos e da experimentação prática como parte do processo de desenvolvimento de software.
 </p>
-## Setup do Projeto
+<h2>Setup do Projeto</h2>
 
+<p align="justify">
 A seguir estão os passos necessários para executar o projeto localmente em ambiente de desenvolvimento.
+</p>
 
-### Pré-requisitos
+<h3>Pré-requisitos</h3>
+<ul>
+  <li>Node.js</li>
+  <li>NPM</li>
+  <li>Visual Studio Code (ou editor de sua preferência)</li>
+</ul>
 
-- Node.js
-- NPM
-- Visual Studio Code (ou editor de sua preferência)
+<h3>Instalação</h3>
 
-### Instalação
+<ol>
+  <li>Clone o repositório:</li>
+</ol>
 
-1. Clone o repositório:
 ```bash
 git clone https://github.com/ALEX-DEV436/Desenvolvimento-de-uma-Aplica-o-Full-Stack-com-Node.js-e-React-Utilizando-uma-API-para-Integra-o-
 ```
+<ol start="2"> <li>Acesse a pasta do projeto:</li> </ol>
+cd backend
+
+<ol start="3"> <li>Instale as dependências:</li> </ol>
+npm install
+
+<ol start="4"> <li>Inicie o servidor:</li> </ol>
+npm start
 
 <h3>Visão - Back-End</h3> 
 <h4>Implementando nossa API</h4>
