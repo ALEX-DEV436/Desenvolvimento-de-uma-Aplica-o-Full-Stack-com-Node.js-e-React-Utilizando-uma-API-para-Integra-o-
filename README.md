@@ -245,7 +245,7 @@ Exemplo de rota disponível
 app.get('/', (req, res) => {
   res.send('starWars');
 });
-
+```
 
 
 <h3>Visão - Front-End</h3> 
