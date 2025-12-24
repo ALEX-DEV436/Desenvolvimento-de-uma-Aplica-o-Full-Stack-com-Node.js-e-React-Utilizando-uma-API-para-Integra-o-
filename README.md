@@ -99,35 +99,58 @@ Este checklist representa as principais etapas planejadas e executadas durante o
 - [ ] Introdução de componentes React para melhor organização
 - [ ] API REST para atualização da lista de favoritos
 
-<h2>Antes iniciarmos o nosso projeto vamos algumas informações que precisam ser vistas.</h2>
-<h3>API externa</h3>
-<h4>API starWar&nbsp;!</h4>
-<p>
-  A API de Star Wars, ou "swapi" (Swah-pee) é a primeira fonte de dados quantificada e acessível programaticamente do mundo para todos os dados do universo canônico de Star Wars&nbsp;!
-</p>
-<p>A API oferece o seguinte endpoints na sua documentação, entretanto com os teste realizados optamos utilizar outros, como veremos adiante.
-<br/>Disponível em&nbsp;: <a titulo="Api externa" href="https://swapi.dev/api/">Api Star Wars</a>. Acesso em: 09 out. 2024.
- <ul>
-   <li>/people/ -- obtenha todos os recursos de um personagem.</li>
-   <li>/people/:id/ -- obter um recurso específico de um personagem.</li>
-   <li>/people/schema/ -- exibir o esquema JSON para lista de personagens.</li>
- </ul> 
-<h2>O desafio</h2>
-<h4>Partindo dessas primeiras informações!!&nbsp;&nbsp;<strong>Qual seria de fato o nosso desafio&nbsp;?</strong></h4>
-<p  align="justify">Vamos criar uma API Rest que permitirá aos fãns da série Star Wars buscar seus personagens favoritos, através de um Front-End interativo, que deve facilitar a busca e, cadastra-lo em uma lista.
-Ao receber os dados da pesquisa do usuario! Nossa aplicação Front-End, comunicará com a nossa API no Back-End, que, por sua vez, faz uma solicitação à API oficial da Star Wars para obter o personagem. A pesquisa deve ser realizada pelo nome.Observem, vamos utilizar a Api da Star - Wars como nosso banco de dados. Vamos receber os dados da API externa, formata-los e responder ao nosso Front-End, que por sua vez repassará para o usuário a informação.<br />
+<h2>Contexto da API Externa</h2>
 
+<h3>Star Wars API (SWAPI)</h3>
+
+<p align="justify">
+A <strong>SWAPI</strong> (Star Wars API) é uma API pública que disponibiliza dados estruturados do universo canônico de Star Wars, permitindo acesso programático a informações como personagens, filmes, planetas e espécies.
+</p>
+
+<p align="justify">
+Durante a fase de testes e integração, foram analisados os endpoints disponibilizados na documentação oficial, sendo selecionados aqueles mais adequados ao escopo da aplicação.
+</p>
+
+<p>
+Documentação oficial: 
+<a href="https://swapi.dev/api/" target="_blank">https://swapi.dev/api/</a>  
+(Acesso em: 09 out. 2024)
+</p>
+
+<ul>
+  <li><strong>/people/</strong> — Retorna a lista de personagens</li>
+  <li><strong>/people/:id/</strong> — Retorna um personagem específico</li>
+  <li><strong>/people/schema/</strong> — Exibe o esquema JSON dos personagens</li>
+</ul>
+ 
+<h2>O Desafio</h2>
+
+<p align="justify">
+O desafio deste projeto consistiu no desenvolvimento de uma <strong>API REST</strong> capaz de integrar um <strong>Front-End em React</strong> com uma <strong>API externa</strong>, utilizando a SWAPI como fonte de dados.
+</p>
+
+<p align="justify">
+A aplicação permite que o usuário pesquise personagens do universo Star Wars pelo nome. A requisição é enviada do Front-End para o Back-End, que atua como intermediário, consultando a API externa, tratando os dados recebidos e retornando uma resposta estruturada ao cliente.
+</p>
+
+<p align="justify">
+A SWAPI é utilizada como base de dados externa, enquanto a API desenvolvida neste projeto é responsável por abstrair, organizar e disponibilizar essas informações de forma adequada ao Front-End.
+</p>
+
+<p align="justify">
 As principais funcionalidades da aplicação incluem:
 </p>
+
 <ul>
-<li><strong>Busca de Personagens:</strong> O cliente deve buscar pelo nome o personagem. Nossa API recebe essa solicitação e busca a resposta na API da star - Wars .</li>
-
-<li><strong>Cadastro de personagem:</strong> Após a nossa API apresentar os resultados ao usuário, será disponibilizado um botão/link que permitirá adicionar o personagem à uma lista de favoritos.</li>
-
-<li><strong>Visualização da lista de Favoritos:</strong> Será fornecido ao usuário um segundo botão/link que o possibilitará  visualizar e selecionar o seu personagem favorito, proporcionando assim uma experiência rica e personalizada.</li>
+  <li><strong>Busca de personagens:</strong> Pesquisa de personagens pelo nome, realizada através da API desenvolvida.</li>
+  <li><strong>Cadastro em favoritos:</strong> Possibilidade de adicionar personagens a uma lista de favoritos.</li>
+  <li><strong>Visualização de favoritos:</strong> Exibição da lista de personagens cadastrados pelo usuário.</li>
 </ul>
-Vamos integrar(bom demais) as tecnologias Node.js e React, criando uma aplicação completa entre Front-End e Back-End, fornecendo(espero) uma experiência rica, fluida e dinâmica para os nossos usuários.
+
+<p align="justify">
+O projeto integra <strong>Node.js</strong> e <strong>React</strong> em uma aplicação Full Stack, reforçando conceitos de integração entre sistemas, consumo de APIs externas e separação de responsabilidades entre Front-End e Back-End.
 </p>
+
 
 <h3>Tecnologias utilizadas</h3>
 <p><img src="http://www.soumaisconquista.com/gitHub/Badges/nodeJS.png" alt="Badges_nodeJS" />&nbsp;&nbsp;&nbsp;<img src="http://www.soumaisconquista.com/gitHub/Badges/react.png" alt="Badges_React" />
