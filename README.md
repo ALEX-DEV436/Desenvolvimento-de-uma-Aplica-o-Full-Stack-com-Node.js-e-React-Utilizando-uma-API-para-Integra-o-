@@ -148,12 +148,11 @@ O projeto integra <strong>Node.js</strong> e <strong>React</strong> em uma aplic
   <img src="docs/badges/nodeJS.png" alt="Node.js" />
   <img src="docs/badges/react.png" alt="React" />
   <img src="docs/badges/express.png" alt="Express" />  
-  <img src="http://www.soumaisconquista.com/gitHub/Badges/express.png" alt="Express" />&nbsp;&nbsp;&nbsp;
-  <img src="http://www.soumaisconquista.com/gitHub/Badges/nodemon.png" alt="Nodemon" />&nbsp;&nbsp;&nbsp;
-  <img src="http://www.soumaisconquista.com/gitHub/Badges/cors.png" alt="CORS" />&nbsp;&nbsp;&nbsp;
-  <img src="http://www.soumaisconquista.com/gitHub/Badges/apiRest.png" alt="API REST" />&nbsp;&nbsp;&nbsp;
-  <img src="http://www.soumaisconquista.com/gitHub/Badges/npm.png" alt="NPM" />&nbsp;&nbsp;&nbsp;
-  <img src="http://www.soumaisconquista.com/gitHub/Badges/gitHub.png" alt="GitHub" />
+  <img src="docs/badges/nodemon.png" alt="nodemon.js" />
+  <img src="docs/badges/cors.png" alt="cors" />
+  <img src="docs/badges/apiRest.png" alt="apiRest" />
+  <img src="docs/badges/npm.png" alt="npm" />
+  <img src="docs/badges/gitHub.png" alt="gitHub" /> 
 </p>
 
 <ul>
