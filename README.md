@@ -50,8 +50,11 @@ A metodologia aplicada neste projeto segue um fluxo simples e iterativo:
 Versões evolutivas do protótipo são mantidas no repositório para fins de estudo e acompanhamento da evolução do projeto, permitindo observar as decisões tomadas ao longo do desenvolvimento.
 </p>
 <p>
-  <img src="http://www.soumaisconquista.com/gitHub/gifAnimado/prototipo15.gif" 
-       alt="Protótipo funcional da aplicação em formato GIF" />
+ ## Protótipo da Interface
+
+O protótipo visual da aplicação (UI/UX) está documentado em:
+📄 [`docs/prototipo/PROTOTIPO.md`](docs/prototipo/PROTOTIPO.md)
+
 </p>
 ## 📚 Dicas e Referências
 
