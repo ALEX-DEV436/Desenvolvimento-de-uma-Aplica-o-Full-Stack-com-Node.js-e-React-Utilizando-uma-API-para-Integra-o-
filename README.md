@@ -154,7 +154,6 @@ O projeto integra <strong>Node.js</strong> e <strong>React</strong> em uma aplic
   <img src="docs/badges/npm.png" alt="npm" />
   <img src="docs/badges/gitHub.png" alt="gitHub" /> 
 </p>
-> Badges autorais desenvolvidos manualmente – veja `docs/BADGES.md`.
 <ul>
   <li><strong>Node.js:</strong> Ambiente de execução utilizado no desenvolvimento do Back-End.</li>
   <li><strong>React:</strong> Biblioteca utilizada na construção da interface do usuário.</li>
@@ -165,7 +164,7 @@ O projeto integra <strong>Node.js</strong> e <strong>React</strong> em uma aplic
   <li><strong>NPM:</strong> Gerenciador de pacotes utilizado para controle das dependências do projeto.</li>
   <li><strong>GitHub:</strong> Plataforma utilizada para versionamento e compartilhamento do código-fonte.</li>
 </ul>
-
+<p>> Badges autorais desenvolvidos manualmente – veja `docs/BADGES.md`.</p>
 <h2>Introdução</h2>
 
 <p align="justify">
