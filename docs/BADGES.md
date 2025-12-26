@@ -32,7 +32,7 @@ unindo código, apresentação e comunicação visual.
 
 ## Versionamento e Plataforma
 
-![GitHub](badges/github.png)
+![GitHub](badges/gitHub.png)
 
 ---
 
