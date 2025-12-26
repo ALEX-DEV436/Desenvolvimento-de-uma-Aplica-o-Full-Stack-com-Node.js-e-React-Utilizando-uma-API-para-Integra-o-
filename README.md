@@ -48,7 +48,7 @@ Versões evolutivas do protótipo são mantidas no repositório para fins de est
 ### Protótipo da Interface
 
 O protótipo visual da aplicação (UI/UX) está documentado em:  
-📄 [`docs/prototipo/PROTOTIPO.md`](docs/prototipo/PROTOTIPO.md)
+📄 [`docs/prototipo/PROTOTIPO.md`](docs/PROTOTIPO.md)
 
 ## 📚 Dicas e Referências
 
