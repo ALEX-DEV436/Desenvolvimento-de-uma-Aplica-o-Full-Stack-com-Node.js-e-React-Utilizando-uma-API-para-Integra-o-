@@ -31,31 +31,25 @@ Essa mudança pode impactar versões anteriores do projeto.
 Caso ocorra erro <strong>404</strong>, recomenda-se verificar o endpoint configurado.
 
 <hr>
-<h2>Protótipo</h2>
-<p align="justify">
-Abaixo está um protótipo funcional em formato de GIF, desenvolvido com o objetivo de visualizar e validar o fluxo principal da aplicação antes do refinamento final da interface.
-</p>
-<p align="justify">
-O protótipo representa uma etapa inicial do processo de desenvolvimento, onde a prioridade foi compreender o comportamento do sistema, a interação do usuário e as principais funcionalidades, antes de ajustes mais finos relacionados a layout, tipografia e identidade visual.
-</p>
-<p align="justify">
-A metodologia aplicada neste projeto segue um fluxo simples e iterativo:
-</p>
-<ul>
-  <li>Definição da ideia e do conceito</li>
-  <li>Implementação funcional</li>
-  <li>Refinamento progressivo da interface e da experiência do usuário</li>
-</ul>
-<p align="justify">
-Versões evolutivas do protótipo são mantidas no repositório para fins de estudo e acompanhamento da evolução do projeto, permitindo observar as decisões tomadas ao longo do desenvolvimento.
-</p>
-<p>
- ## Protótipo da Interface
+## Protótipo
 
-O protótipo visual da aplicação (UI/UX) está documentado em:
+Abaixo está um protótipo funcional em formato de GIF, desenvolvido com o objetivo de visualizar e validar o fluxo principal da aplicação antes do refinamento final da interface.
+
+O protótipo representa uma etapa inicial do processo de desenvolvimento, onde a prioridade foi compreender o comportamento do sistema, a interação do usuário e as principais funcionalidades, antes de ajustes mais finos relacionados a layout, tipografia e identidade visual.
+
+A metodologia aplicada neste projeto segue um fluxo simples e iterativo:
+
+- Definição da ideia e do conceito
+- Implementação funcional
+- Refinamento progressivo da interface e da experiência do usuário
+
+Versões evolutivas do protótipo são mantidas no repositório para fins de estudo e acompanhamento da evolução do projeto, permitindo observar as decisões tomadas ao longo do desenvolvimento.
+
+### Protótipo da Interface
+
+O protótipo visual da aplicação (UI/UX) está documentado em:  
 📄 [`docs/prototipo/PROTOTIPO.md`](docs/prototipo/PROTOTIPO.md)
 
-</p>
 ## 📚 Dicas e Referências
 
 Durante o desenvolvimento deste projeto, foram utilizadas algumas referências técnicas e recursos de apoio:
