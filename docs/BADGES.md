@@ -18,7 +18,7 @@ unindo código, apresentação e comunicação visual.
 ![Node.js](badges/nodeJS.png)
 ![React](badges/react.png)
 ![Express](badges/express.png)
-![API REST](badges/api-rest.png)
+![API REST](badges/apiRest.png)
 
 ---
 
