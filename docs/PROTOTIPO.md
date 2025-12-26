@@ -21,9 +21,9 @@ onde o usuário pode:
 
 ---
 
-## Protótipo – Versão 2.0
+## Protótipo – Versão 1.0
 
-![Protótipo da aplicação](prototipo-v2.gif)
+![Protótipo da aplicação](prototipo/prototipo-v2.gif)
 
 > Protótipo criado manualmente e evoluído ao longo do desenvolvimento,
 servindo como referência visual para a implementação em React.
