@@ -145,8 +145,9 @@ O projeto integra <strong>Node.js</strong> e <strong>React</strong> em uma aplic
 <h2>Tecnologias Utilizadas</h2>
 
 <p>
-  <img src="http://www.soumaisconquista.com/gitHub/Badges/nodeJS.png" alt="Node.js" />&nbsp;&nbsp;&nbsp;
-  <img src="http://www.soumaisconquista.com/gitHub/Badges/react.png" alt="React" />&nbsp;&nbsp;&nbsp;
+  ![Node.js](docs/badges/nodeJS.png)
+  ![Node.js](docs/badges/react.png)
+  ![Node.js](docs/badges/express.png)  
   <img src="http://www.soumaisconquista.com/gitHub/Badges/express.png" alt="Express" />&nbsp;&nbsp;&nbsp;
   <img src="http://www.soumaisconquista.com/gitHub/Badges/nodemon.png" alt="Nodemon" />&nbsp;&nbsp;&nbsp;
   <img src="http://www.soumaisconquista.com/gitHub/Badges/cors.png" alt="CORS" />&nbsp;&nbsp;&nbsp;
