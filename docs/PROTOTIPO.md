@@ -23,7 +23,9 @@ onde o usuário pode:
 
 ## Protótipo – Versão 1.0
 
-![Protótipo da aplicação](prototipo/prototipo-v2.gif)
+<img src="prototipo/prototipo-v1.gif" alt="prototipo-v1.gif" />
+
+![Protótipo da aplicação](prototipo/prototipo-v1.gif)
 
 > Protótipo criado manualmente e evoluído ao longo do desenvolvimento,
 servindo como referência visual para a implementação em React.
