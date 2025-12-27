@@ -47,7 +47,7 @@ function App() {
   );
 }
 Resultado: imagem a colocar
-
+```
 
 
 
@@ -60,6 +60,7 @@ Resultado: imagem a colocar
 
 No projeto React, no arquivo App.js, adicionamos o Axios e testamos uma requisição GET para o servidor local.
 
+```js
 import "./App.css";
 import axios from "axios";
 
@@ -93,12 +94,12 @@ app.get("/", (req, res) => {
 app.listen(3000, () => {
   console.log("Servidor rodando");
 });
-
+```
 
 1.3 Criar uma base de dados local para ser consumida por nossa API
 
 No Back-End (arquivo serve.js), criamos um objeto simples para simular uma base de dados inicial.
-
+```js
 const express = require("express");
 const app = express();
 app.use(express.json());
@@ -123,11 +124,13 @@ app.get("/", (req, res) => {
 app.listen(3000, () => {
   console.log("Servidor rodando");
 });
+```
 
 1.4 Consumir a base de dados no Front-End (React)
 
 No Front-End (arquivo App.js), consumimos o objeto retornado pelo Back-End e exibimos o resultado no console.
 
+```js
 import "./App.css";
 import axios from "axios";
 
@@ -144,6 +147,7 @@ function App() {
   return null;
 }
 export default App;
+```
 
 1.5 Uso de try/catch (teste de erro controlado)
 
@@ -152,6 +156,7 @@ Neste teste, simulei um erro para forçar a exibição da mensagem "Usando Catch
 Desafio: descubra o erro (dica: nome de variável).
 Simule outros erros, teste respostas com status e brinque com as possibilidades.
 
+```js
 const express = require("express");
 const app = express();
 app.use(express.json());
@@ -206,6 +211,7 @@ app.get("/", async (req, res) => {
 app.listen(3000, () => {
   console.log("Servidor rodando");
 });
+```
 
 2) Momento reflexão (arquitetura e objetivo)
 
@@ -241,6 +247,7 @@ Com essa base estabelecida, o próximo passo foi integrar as camadas, garantindo
 3) Testes de endpoints (SWAPI)
 3.1 Primeiro teste: /people/ (listar recursos por página)
 
+```js
 const express = require("express");
 const app = express();
 app.use(express.json());
@@ -258,6 +265,7 @@ app.get("/", async (req, res) => {
 app.listen(3000, () => {
   console.log("Servidor rodando");
 });
+```
 
 Resultado: colocar imagem
 
@@ -273,6 +281,7 @@ Resultado: colocar imagem
 
 3.2 Segundo teste: /people/1 (recurso específico)
 
+```js
 const express = require("express");
 const app = express();
 app.use(express.json());
@@ -290,6 +299,7 @@ app.get("/", async (req, res) => {
 app.listen(3000, () => {
   console.log("Servidor rodando");
 });
+```
 
 Resultado: colocar imagem
 
@@ -300,6 +310,7 @@ Observação: quando retornamos data.films, recebemos um array de URLs dos filme
 
 3.3 Terceiro teste: retornar somente results
 
+```js
 const express = require("express");
 const app = express();
 app.use(express.json());
@@ -317,11 +328,13 @@ app.get("/", async (req, res) => {
 app.listen(3000, () => {
   console.log("Servidor rodando");
 });
+```
 
 Resultado: colocar imagem
 
 3.4 Tipos retornados (typeof)
 
+```js
 const express = require("express");
 const app = express();
 app.use(express.json());
@@ -340,12 +353,14 @@ app.get("/", async (req, res) => {
 app.listen(3000, () => {
   console.log("Servidor rodando");
 });
+```
 
 O resultado aparece no console quando atualizamos o navegador.
 
 4) Consumindo a API externa através do Back-End e exibindo no Front-End
 4.1 Back-End: proxy simples para SWAPI
 
+```js
 const express = require("express");
 const app = express();
 app.use(express.json());
@@ -365,9 +380,11 @@ app.get("/", async (req, res) => {
 app.listen(3000, () => {
   console.log("Servidor rodando");
 });
+```
 
 4.2 Front-End: buscar no Back-End e logar resposta
 
+```js
 function App() {
   function buscaApi() {
     axios
@@ -394,12 +411,14 @@ function App() {
   );
 }
 export default App;
+```
 
 5) Testes de desenvolvimento
 5.1 Pesquisa pelo nome (Front-End → Back-End)
 
 Back-End (serve.js): receber JSON via POST e responder com texto.
 
+```js
 const express = require("express");
 const app = express();
 app.use(express.json());
@@ -465,6 +484,7 @@ function App() {
   );
 }
 export default App;
+```
 
 Nota: neste projeto o useState será bastante utilizado.
 
@@ -474,11 +494,13 @@ Nota: neste projeto o useState será bastante utilizado.
 
 Dentro do trecho onde você obtém users:
 
+```js
 if (users != undefined) {
   res.send(users);
 } else {
   res.send("Personagem não localizado");
 }
+```
 
 6.2 Front-End: exibir mensagem sem crashar
 
@@ -490,6 +512,7 @@ let visivelSemPersonagem = { display: `${estiloSemPersonagem}` };
 
 Atualize a função buscaApi:
 
+```js
 function buscaApi() {
   axios
     .get(`http://localhost:3000/${pg}`)
@@ -515,13 +538,15 @@ function buscaApi() {
     .catch((error) => console.log(error))
     .finally("");
 }
+```
 
 E abaixo do formulário:
-
+```js
 <div style={visivelSemPersonagem} className="semPersona">
   Resposta<hr />
   {semPersonagem}
 </div>
+```
 
 7) Próximo desafio
 Exibir nomes dos filmes (e não as URLs)
