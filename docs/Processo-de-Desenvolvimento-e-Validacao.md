@@ -235,5 +235,296 @@ Próximo passo: fazer os dois conversarem.
 3) Testes de endpoints (SWAPI)
 3.1 Primeiro teste: /people/ (listar recursos por página)
 
+const express = require("express");
+const app = express();
+app.use(express.json());
+
+const cors = require("cors");
+app.use(cors());
+
+const axios = require("axios");
+
+app.get("/", async (req, res) => {
+  const { data } = await axios("https://swapi.dev/api/people/");
+  return res.json(data);
+});
+
+app.listen(3000, () => {
+  console.log("Servidor rodando");
+});
+
+Resultado: colocar imagem
+
+
+
+
+
+
+
+
+
+
+
+3.2 Segundo teste: /people/1 (recurso específico)
+
+const express = require("express");
+const app = express();
+app.use(express.json());
+
+const cors = require("cors");
+app.use(cors());
+
+const axios = require("axios");
+
+app.get("/", async (req, res) => {
+  const { data } = await axios("https://swapi.dev/api/people/1");
+  return res.json(data);
+});
+
+app.listen(3000, () => {
+  console.log("Servidor rodando");
+});
+
+Resultado: colocar imagem
+
+
+
+
+Observação: quando retornamos data.films, recebemos um array de URLs dos filmes.
+
+3.3 Terceiro teste: retornar somente results
+
+const express = require("express");
+const app = express();
+app.use(express.json());
+
+const cors = require("cors");
+app.use(cors());
+
+const axios = require("axios");
+
+app.get("/", async (req, res) => {
+  const { data } = await axios("https://swapi.dev/api/people/");
+  return res.json(data.results);
+});
+
+app.listen(3000, () => {
+  console.log("Servidor rodando");
+});
+
+Resultado: colocar imagem
+
+3.4 Tipos retornados (typeof)
+
+const express = require("express");
+const app = express();
+app.use(express.json());
+
+const cors = require("cors");
+app.use(cors());
+
+const axios = require("axios");
+
+app.get("/", async (req, res) => {
+  const { data } = await axios("https://swapi.dev/api/people/1");
+  console.log(typeof data.films);
+  return res.json(data.films);
+});
+
+app.listen(3000, () => {
+  console.log("Servidor rodando");
+});
+
+O resultado aparece no console quando atualizamos o navegador.
+
+4) Consumindo a API externa através do Back-End e exibindo no Front-End
+4.1 Back-End: proxy simples para SWAPI
+
+const express = require("express");
+const app = express();
+app.use(express.json());
+
+const cors = require("cors");
+app.use(cors());
+
+const axios = require("axios");
+
+app.get("/", async (req, res) => {
+  let response = await axios("https://swapi.dev/api/people/1");
+  try {
+    res.send(response.data);
+  } catch {}
+});
+
+app.listen(3000, () => {
+  console.log("Servidor rodando");
+});
+
+4.2 Front-End: buscar no Back-End e logar resposta
+
+function App() {
+  function buscaApi() {
+    axios
+      .get("http://localhost:3000/")
+      .then((response) => console.log(response.data))
+      .catch((error) => console.log(error))
+      .finally(console.log("dentro do finally"));
+  }
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <div>
+          <h2>Busque dados na API</h2>
+          <form>
+            <input id="inputID" required />
+            <button type="submit" onClick={(e) => buscaApi(e)}>
+              Pesquisar
+            </button>
+          </form>
+        </div>
+      </header>
+    </div>
+  );
+}
 export default App;
+
+5) Testes de desenvolvimento
+5.1 Pesquisa pelo nome (Front-End → Back-End)
+
+Back-End (serve.js): receber JSON via POST e responder com texto.
+
+const express = require("express");
+const app = express();
+app.use(express.json());
+
+const cors = require("cors");
+app.use(cors());
+
+app.post("/", (req, res) => {
+  const { personagem } = req.body;
+  res.send(`O personagem pesquisado é:${personagem}`);
+});
+
+app.listen(3000, () => {
+  console.log("Servidor rodando");
+});
+
+Front-End (App.js): enviar o nome usando useState.
+
+import "./App.css";
+import { useState } from "react";
+import axios from "axios";
+
+function App() {
+  const [personagem, setPersonagem] = useState("");
+
+  const handlePesquisar = async (e) => {
+    e.preventDefault();
+    const response = await axios.post(
+      "http://localhost:3000/",
+      JSON.stringify({ personagem }),
+      { headers: { "Content-Type": "application/json" } }
+    );
+    console.log(response);
+  };
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <div className="conteiner-form">
+          <div className="adic_favoritos">
+            <a href="*">Lista de Favoritos</a>
+          </div>
+
+          <h2>Busque seu personagem</h2>
+
+          <form className="formulario">
+            <input
+              id="inputID"
+              type="text"
+              name="personagem"
+              placeholder="Nome do personagem"
+              required
+              onChange={(e) => setPersonagem(e.target.value)}
+            />
+
+            <button className="btn-login" type="submit" onClick={handlePesquisar}>
+              Pesquisar
+            </button>
+          </form>
+        </div>
+      </header>
+    </div>
+  );
+}
+export default App;
+
+Nota: neste projeto o useState será bastante utilizado.
+
+
+6) Tratamento de erro (personagem não localizado)
+6.1 Back-End: validar retorno da SWAPI
+
+Dentro do trecho onde você obtém users:
+
+if (users != undefined) {
+  res.send(users);
+} else {
+  res.send("Personagem não localizado");
+}
+
+6.2 Front-End: exibir mensagem sem crashar
+
+Crie variáveis de estado:
+
+const [semPersonagem, setSemPersonagem] = useState("");
+let [estiloSemPersonagem, setEstiloSemPersonagem] = useState("none");
+let visivelSemPersonagem = { display: `${estiloSemPersonagem}` };
+
+Atualize a função buscaApi:
+
+function buscaApi() {
+  axios
+    .get(`http://localhost:3000/${pg}`)
+    .then((response) => {
+      let users = response.data;
+
+      if (users != "Personagem não localizado") {
+        setNome(users.name);
+        setFilmes(users.films);
+        setEstiloPersonagem("block");
+        setEstiloInformacao("none");
+        setEstiloListaPersonagem("none");
+        setEstiloSemPersonagem("none");
+      } else {
+        setEstiloInformacao("none");
+        setEstiloListaPersonagem("none");
+        setEstiloCadastro("none");
+        setEstiloPersonagem("none");
+        setEstiloSemPersonagem("block");
+        setSemPersonagem(users);
+      }
+    })
+    .catch((error) => console.log(error))
+    .finally("");
+}
+
+E abaixo do formulário:
+
+<div style={visivelSemPersonagem} className="semPersona">
+  Resposta<hr />
+  {semPersonagem}
+</div>
+
+7) Próximo desafio
+Exibir nomes dos filmes (e não as URLs)
+
+No estágio atual, a SWAPI retorna URLs em films.
+O próximo passo é fazer uma requisição para cada URL de filme e substituir as URLs por títulos, exibindo as informações de forma amigável na interface.
+
+Próxima etapa: normalização do retorno + múltiplas requisições + melhoria da UI.
+
+
+
 
