@@ -1,5 +1,6 @@
-# Desenvolvimento de uma Aplicação Full Stack com Node.js e React
-## Aplicação Full Stack para Integração e Consumo de API Externa utilizando Node.js e React
+# Full Stack Application — Node.js + React + SWAPI
+Aplicação Full Stack para integração e consumo de uma API externa (Star Wars API),
+utilizando Node.js no Back-End e React no Front-End.
 <h3>Descrição</h3>
 <p align="justify">
 Este projeto consiste no desenvolvimento de uma aplicação <strong>Full Stack</strong>, utilizando <strong>Node.js</strong> no Back-End e <strong>React</strong> no Front-End, com o objetivo de integrar e consumir dados de uma API externa (SWAPI – Star Wars API).
