@@ -227,11 +227,17 @@ permitir cadastrar o personagem em uma lista de favoritos
 
 permitir consultar a lista de favoritos na interface
 
-Protótipo visual da ideia:
+Protótipo visual da ideia
 
-“Dividir para conquistar”: API criada, servidores iniciados, criamos um “ouvido” no Back-End e uma “boca” no Front-End.
-Próximo passo: fazer os dois conversarem.
+Aplicando o princípio de dividir para conquistar, o projeto foi estruturado em camadas independentes:
 
+API dedicada no Back-End
+
+Servidores configurados e em execução
+
+Interface Front-End responsável pela interação do usuário
+
+Com essa base estabelecida, o próximo passo foi integrar as camadas, garantindo a comunicação consistente entre Front-End e Back-End.
 3) Testes de endpoints (SWAPI)
 3.1 Primeiro teste: /people/ (listar recursos por página)
 
