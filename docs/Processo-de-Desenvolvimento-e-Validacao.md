@@ -213,9 +213,10 @@ app.listen(3000, () => {
 });
 ```
 
-2) Momento reflexão (arquitetura e objetivo)
+2) Momento de reflexão (arquitetura e objetivo)
 
-Após instalar os aplicativos e bibliotecas necessárias, configuramos um listener (ouvido) para o servidor Back-End na porta 3000 e testamos acessando:
+Após a instalação dos aplicativos e bibliotecas necessárias, configuramos o servidor Back-End com um listener ativo na porta 3000, responsável por receber e processar as requisições HTTP.
+Essa etapa foi validada por meio de testes diretos no navegador e chamadas à API.
 
 http://localhost:3000
 
