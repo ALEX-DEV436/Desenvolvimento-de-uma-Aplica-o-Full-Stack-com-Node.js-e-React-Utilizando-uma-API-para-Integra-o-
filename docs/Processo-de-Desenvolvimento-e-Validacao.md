@@ -46,8 +46,8 @@ function App() {
     </div>
   );
 }
-Resultado: imagem a colocar
 ```
+Resultado: imagem a colocar
 
 
 
