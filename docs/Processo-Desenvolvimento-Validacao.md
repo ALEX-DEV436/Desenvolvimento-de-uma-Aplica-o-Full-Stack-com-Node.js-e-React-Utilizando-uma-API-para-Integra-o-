@@ -350,7 +350,9 @@ app.listen(3000, () => {
 });
 ```
 
-Resultado: colocar imagem
+Resultado: 
+
+![Tela: End Point 1](img/desenvolvimento/teste-EndPoin3.jpg)
 
 3.4 Tipos retornados (typeof)
 
