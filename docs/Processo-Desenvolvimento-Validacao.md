@@ -295,16 +295,8 @@ app.listen(3000, () => {
 });
 ```
 
-Resultado: colocar imagem
-
-
-
-
-
-
-
-
-
+Resultado:
+![Tela: End Point 1](img/desenvolvimento/teste-EndPoin1.jpg)
 
 
 3.2 Segundo teste: /people/1 (recurso específico)
