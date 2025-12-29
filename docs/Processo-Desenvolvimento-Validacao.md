@@ -213,44 +213,68 @@ app.listen(3000, () => {
 });
 ```
 
-2) Momento de reflexão — Arquitetura e objetivo do projeto
+## 2) Momento de reflexão — Arquitetura e objetivo
 
-Após a instalação dos aplicativos e bibliotecas necessárias, iniciamos a configuração da arquitetura básica da aplicação, separando claramente as responsabilidades entre Back-End e Front-End.
+Após a instalação dos aplicativos e bibliotecas necessárias, iniciamos a definição da arquitetura básica do projeto, separando claramente as responsabilidades entre **Back-End** e **Front-End**.
 
-Back-End
+---
 
-O servidor Back-End foi configurado com um listener ativo na porta 3000, responsável por receber, processar e responder às requisições HTTP.
-Essa etapa foi validada por meio de testes diretos no navegador e chamadas à API:
+### 🔹 Back-End
+
+- Servidor configurado com *listener* ativo na **porta 3000**
+- Responsável por receber, processar e responder requisições HTTP
+- Etapa validada com testes diretos no navegador e chamadas à API
+
+Exemplo de validação:
 
 http://localhost:3000
 
-Front-End
 
-No Front-End, o servidor da aplicação React foi inicializado (porta padrão do React) e validado no navegador, garantindo que a interface estivesse operacional e pronta para consumir dados externos.
+---
 
-Objetivo central do projeto
+### 🔹 Front-End
 
-O desafio proposto para esta aplicação consiste em:
+- Aplicação React inicializada na porta padrão
+- Interface validada no navegador
+- Preparada para consumir dados provenientes da API desenvolvida no Back-End
 
-Buscar um personagem pelo nome em uma API externa (SWAPI)
+---
 
-Encaminhar essa requisição por meio de uma API própria, desenvolvida no Back-End
+## 🎯 Objetivo do projeto
 
-Retornar ao Front-End os dados do personagem solicitado
+O desafio central desta aplicação consiste em:
 
-Permitir o cadastro do personagem em uma lista de favoritos
+- Buscar um personagem pelo nome em uma **API externa (SWAPI)**
+- Encaminhar a requisição por meio de uma **API própria (Back-End)**
+- Retornar ao Front-End os dados do personagem
+- Permitir o **cadastro do personagem** em uma lista de favoritos
+- Permitir a **consulta da lista de favoritos** pela interface
 
-Permitir a consulta da lista de favoritos diretamente pela interface
+---
 
-Protótipo conceitual da solução
+## 🧩 Estrutura conceitual da solução
 
-Aplicando o princípio de dividir para conquistar, o projeto foi estruturado em camadas independentes e bem definidas:
+Aplicando o princípio de **dividir para conquistar**, o projeto foi organizado em camadas independentes:
 
-API dedicada no Back-End, responsável por intermediar a comunicação com a API externa
+- **API dedicada no Back-End**  
+  Responsável por intermediar o consumo da API externa
 
-Servidores configurados e em execução, garantindo fluxo contínuo de dados
+- **Servidores configurados e em execução**  
+  Garantindo fluxo contínuo de dados
 
-Front-End desacoplado, focado apenas na experiência do usuário e apresentação das informações
+- **Front-End desacoplado**  
+  Focado exclusivamente na experiência do usuário e apresentação das informações
+
+---
+
+### ✔ Resultado esperado
+
+Essa abordagem facilita:
+
+- Entendimento da arquitetura  
+- Manutenção do código  
+- Evolução futura do projeto
+
 
 Com essa base estabelecida, o próximo passo foi integrar as camadas, garantindo a comunicação consistente entre Front-End e Back-End.
 3) Testes de endpoints (SWAPI)
