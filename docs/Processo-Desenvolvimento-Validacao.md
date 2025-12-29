@@ -49,13 +49,6 @@ Resultado:
 
 ![Tela: clique no botão](img/desenvolvimento/clique-bt.jpg)
 
-
-
-
-
-
-
-
 1.2 Utilizando Axios no React
 
 No projeto React, no arquivo App.js, adicionamos o Axios e testamos uma requisição GET para o servidor local.
