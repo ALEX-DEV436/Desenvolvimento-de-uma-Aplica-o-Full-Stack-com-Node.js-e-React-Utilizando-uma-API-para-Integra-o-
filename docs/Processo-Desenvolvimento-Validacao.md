@@ -213,13 +213,13 @@ app.listen(3000, () => {
 });
 ```
 
-## 2) Momento de reflexão — Arquitetura e objetivo
+## 2) Arquitetura e objetivo
 
 Após a instalação dos aplicativos e bibliotecas necessárias, iniciamos a definição da arquitetura básica do projeto, separando claramente as responsabilidades entre **Back-End** e **Front-End**.
 
 ---
 
-### 🔹 Back-End
+#### 🔹 Back-End
 
 - Servidor configurado com *listener* ativo na **porta 3000**
 - Responsável por receber, processar e responder requisições HTTP
@@ -232,7 +232,7 @@ http://localhost:3000
 
 ---
 
-### 🔹 Front-End
+#### 🔹 Front-End
 
 - Aplicação React inicializada na porta padrão
 - Interface validada no navegador
@@ -240,7 +240,7 @@ http://localhost:3000
 
 ---
 
-## 🎯 Objetivo do projeto
+### 🎯 Objetivo do projeto
 
 O desafio central desta aplicação consiste em:
 
@@ -252,7 +252,7 @@ O desafio central desta aplicação consiste em:
 
 ---
 
-## 🧩 Estrutura conceitual da solução
+### 🧩 Estrutura conceitual da solução
 
 Aplicando o princípio de **dividir para conquistar**, o projeto foi organizado em camadas independentes:
 
@@ -267,7 +267,7 @@ Aplicando o princípio de **dividir para conquistar**, o projeto foi organizado 
 
 ---
 
-### ✔ Resultado esperado
+#### ✔ Resultado esperado
 
 Essa abordagem facilita:
 
