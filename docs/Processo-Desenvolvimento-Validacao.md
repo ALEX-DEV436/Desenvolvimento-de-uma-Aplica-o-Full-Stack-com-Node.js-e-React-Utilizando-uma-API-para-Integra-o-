@@ -277,7 +277,9 @@ Essa abordagem facilita:
 
 
 Com essa base estabelecida, o próximo passo foi integrar as camadas, garantindo a comunicação consistente entre Front-End e Back-End.
-3) Testes de endpoints (SWAPI)
+
+## 3) Testes de endpoints (SWAPI)
+
 3.1 Primeiro teste: /people/ (listar recursos por página)
 
 ```js
