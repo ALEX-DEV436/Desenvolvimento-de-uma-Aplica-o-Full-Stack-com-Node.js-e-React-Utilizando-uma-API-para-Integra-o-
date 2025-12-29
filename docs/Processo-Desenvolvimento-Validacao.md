@@ -45,7 +45,9 @@ function App() {
   );
 }
 ```
-Resultado: imagem a colocar
+Resultado:
+
+![Tela: clique no botão](img/desenvolvimento/clique-bt.jpg)
 
 
 
