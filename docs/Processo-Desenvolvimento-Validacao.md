@@ -321,8 +321,8 @@ app.listen(3000, () => {
 });
 ```
 
-Resultado: colocar imagem
-
+Resultado: 
+![Tela: End Point 2](img/desenvolvimento/teste-EndPoin2.jpg)
 
 
 
