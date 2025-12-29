@@ -379,7 +379,7 @@ app.listen(3000, () => {
 
 O resultado aparece no console quando atualizamos o navegador.
 
-4) Consumindo a API externa através do Back-End e exibindo no Front-End
+## 4) Consumindo a API externa através do Back-End e exibindo no Front-End
 4.1 Back-End: proxy simples para SWAPI
 
 ```js
@@ -435,7 +435,8 @@ function App() {
 export default App;
 ```
 
-5) Testes de desenvolvimento
+## 5) Testes de desenvolvimento
+
 5.1 Pesquisa pelo nome (Front-End → Back-End)
 
 Back-End (serve.js): receber JSON via POST e responder com texto.
@@ -511,7 +512,7 @@ export default App;
 Nota: neste projeto o useState será bastante utilizado.
 
 
-6) Tratamento de erro (personagem não localizado)
+## 6) Tratamento de erro (personagem não localizado)
 6.1 Back-End: validar retorno da SWAPI
 
 Dentro do trecho onde você obtém users:
@@ -570,7 +571,7 @@ E abaixo do formulário:
 </div>
 ```
 
-7) Próximo desafio
+## 7) Próximo desafio
 Exibir nomes dos filmes (e não as URLs)
 
 No estágio atual, a SWAPI retorna URLs em films.
