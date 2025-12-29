@@ -2,8 +2,6 @@
 
 Este documento registra a evolução do projeto de forma incremental, validando cada etapa antes de avançar para a próxima (Front-End ⇄ Back-End ⇄ API externa).
 
-> **Observação:** As imagens citadas abaixo devem estar em `docs/img/`.
-
 ---
 
 ## 1) Testes de introdução às tecnologias
