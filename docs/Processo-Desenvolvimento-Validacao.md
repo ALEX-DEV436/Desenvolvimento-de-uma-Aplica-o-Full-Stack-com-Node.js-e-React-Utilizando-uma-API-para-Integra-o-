@@ -213,36 +213,44 @@ app.listen(3000, () => {
 });
 ```
 
-2) Momento de reflexão (arquitetura e objetivo)
+2) Momento de reflexão — Arquitetura e objetivo do projeto
 
-Após a instalação dos aplicativos e bibliotecas necessárias, configuramos o servidor Back-End com um listener ativo na porta 3000, responsável por receber e processar as requisições HTTP.
-Essa etapa foi validada por meio de testes diretos no navegador e chamadas à API.
+Após a instalação dos aplicativos e bibliotecas necessárias, iniciamos a configuração da arquitetura básica da aplicação, separando claramente as responsabilidades entre Back-End e Front-End.
+
+Back-End
+
+O servidor Back-End foi configurado com um listener ativo na porta 3000, responsável por receber, processar e responder às requisições HTTP.
+Essa etapa foi validada por meio de testes diretos no navegador e chamadas à API:
 
 http://localhost:3000
 
-No Front-End, inicializamos o servidor (porta padrão do React) e validamos a aplicação no navegador.
+Front-End
 
-O desafio do projeto é:
+No Front-End, o servidor da aplicação React foi inicializado (porta padrão do React) e validado no navegador, garantindo que a interface estivesse operacional e pronta para consumir dados externos.
 
-buscar um personagem pelo nome em uma API externa (SWAPI)
+Objetivo central do projeto
 
-encaminhar a requisição por meio de uma API desenvolvida por nós (Back-End)
+O desafio proposto para esta aplicação consiste em:
 
-retornar ao Front-End os dados do personagem
+Buscar um personagem pelo nome em uma API externa (SWAPI)
 
-permitir cadastrar o personagem em uma lista de favoritos
+Encaminhar essa requisição por meio de uma API própria, desenvolvida no Back-End
 
-permitir consultar a lista de favoritos na interface
+Retornar ao Front-End os dados do personagem solicitado
 
-Protótipo visual da ideia
+Permitir o cadastro do personagem em uma lista de favoritos
 
-Aplicando o princípio de dividir para conquistar, o projeto foi estruturado em camadas independentes:
+Permitir a consulta da lista de favoritos diretamente pela interface
 
-API dedicada no Back-End
+Protótipo conceitual da solução
 
-Servidores configurados e em execução
+Aplicando o princípio de dividir para conquistar, o projeto foi estruturado em camadas independentes e bem definidas:
 
-Interface Front-End responsável pela interação do usuário
+API dedicada no Back-End, responsável por intermediar a comunicação com a API externa
+
+Servidores configurados e em execução, garantindo fluxo contínuo de dados
+
+Front-End desacoplado, focado apenas na experiência do usuário e apresentação das informações
 
 Com essa base estabelecida, o próximo passo foi integrar as camadas, garantindo a comunicação consistente entre Front-End e Back-End.
 3) Testes de endpoints (SWAPI)
