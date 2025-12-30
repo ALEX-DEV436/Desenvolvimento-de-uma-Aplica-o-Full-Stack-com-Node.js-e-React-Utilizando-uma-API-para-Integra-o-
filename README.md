@@ -150,7 +150,7 @@ O projeto integra <strong>Node.js</strong> e <strong>React</strong> em uma aplic
   <li><strong>NPM:</strong> Gerenciador de pacotes utilizado para controle das dependências do projeto.</li>
   <li><strong>GitHub:</strong> Plataforma utilizada para versionamento e compartilhamento do código-fonte.</li>
 </ul>
-<p>> Badges autorais desenvolvidos manualmente – veja `docs/BADGES.md`.</p>
+<p>> Badges autorais desenvolvidos manualmente – veja [`docs/BADGES.md`](docs/BADGES.md) </p>
 <h2>Introdução</h2>
 
 <p align="justify">
