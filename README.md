@@ -151,7 +151,8 @@ O projeto integra <strong>Node.js</strong> e <strong>React</strong> em uma aplic
   <li><strong>GitHub:</strong> Plataforma utilizada para versionamento e compartilhamento do código-fonte.</li>
 </ul>
 <p>Badges autorais desenvolvidos manualmente veja em:  </p>
-📄 [`docs/PROTOTIPO.md`](docs/PROTOTIPO.md)
+
+📄 [`docs/BADGES.md`](docs/BADGES.md)
 
 <h2>Introdução</h2>
 
