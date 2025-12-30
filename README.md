@@ -152,6 +152,7 @@ O projeto integra <strong>Node.js</strong> e <strong>React</strong> em uma aplic
 </ul>
 <p>Badges autorais desenvolvidos manualmente veja em:  </p>
 [`docs/BADGES.md`](docs/BADGES.md)
+
 <h2>Introdução</h2>
 
 <p align="justify">
