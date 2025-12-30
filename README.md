@@ -19,8 +19,6 @@ O projeto foi desenvolvido como um desafio técnico e também como um exercício
 <small>
 Atualizado em <strong>29/12/2025</strong>, após retomada do projeto e revisão geral do código e da documentação.
 </small>
-IMAGEM??????
-<img src="http://www.soumaisconquista.com/gitHub/icone/TEXTO.png" alt="Aviso" width="20" />
 
 Essa mudança pode impactar versões anteriores do projeto.  
 Caso ocorra erro <strong>404</strong>, recomenda-se verificar o endpoint configurado.
