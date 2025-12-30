@@ -66,7 +66,6 @@ Este checklist representa as principais etapas planejadas e executadas durante o
 - [x] Configuração do ambiente de desenvolvimento
 - [x] Instalação das dependências
 - [x] Configuração do Express no Back-End
-- [x] Criação da API REST
 - [x] Configuração de CORS e Nodemon
 
 ### ✔ Integração e Testes
