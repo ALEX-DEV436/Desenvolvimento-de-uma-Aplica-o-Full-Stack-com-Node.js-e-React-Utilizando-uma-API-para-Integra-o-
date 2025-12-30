@@ -30,6 +30,7 @@ Essa mudança pode impactar versões anteriores do projeto.
 Caso ocorra erro <strong>404</strong>, recomenda-se verificar o endpoint configurado.
 
 <hr>
+
 ## Protótipo
 
 Abaixo está um protótipo funcional em formato de GIF, desenvolvido com o objetivo de visualizar e validar o fluxo principal da aplicação antes do refinamento final da interface.
