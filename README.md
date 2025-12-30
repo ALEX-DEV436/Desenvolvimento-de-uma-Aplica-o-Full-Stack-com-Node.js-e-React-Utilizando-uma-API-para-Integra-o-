@@ -20,11 +20,6 @@ O projeto foi desenvolvido como um desafio técnico e também como um exercício
 Atualizado em <strong>24/12/2025</strong>, após retomada do projeto e revisão geral do código e da documentação.
 </small>
 <img src="http://www.soumaisconquista.com/gitHub/icone/TEXTO.png" alt="Aviso" width="20" />
-Durante uma revisão, foi identificado que a API pública utilizada no projeto (<strong>SWAPI</strong>) sofreu alteração de domínio:
-<ul>
-  <li><strong>Antigo:</strong> https://swapi.dev</li>
-  <li><strong>Atual:</strong> https://swapi.py4e.com</li>
-</ul>
 
 Essa mudança pode impactar versões anteriores do projeto.  
 Caso ocorra erro <strong>404</strong>, recomenda-se verificar o endpoint configurado.
@@ -99,7 +94,7 @@ Durante a fase de testes e integração, foram analisados os endpoints disponibi
 
 <p>
 Documentação oficial: 
-<a href="https://swapi.dev/api/" target="_blank">https://swapi.dev/api/</a>  
+<a href="https://swapi.py4e.com/" target="_blank">https://swapi.py4e.com/</a>  
 (Acesso em: 09 out. 2024)
 </p>
 
